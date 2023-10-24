@@ -1,0 +1,22 @@
+.current {
+    font-weight: bold;
+    color: #111;
+}
+
+.nav_child {
+    display: none;
+}
+
+ul>li:hover .nav_child{
+    color: #111;
+    display: flex;
+    padding: 10px;
+    right: 0;
+    min-width: 160px;
+    position: absolute;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
